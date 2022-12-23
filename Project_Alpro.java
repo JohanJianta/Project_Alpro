@@ -88,7 +88,7 @@ public class Project_Alpro {
 
                         case NUMERIC:
                             if (DateUtil.isCellDateFormatted(cell)) {
-                                path = df.format(cell.getDateCellValue());                // inisialisasi path apabila cell bertipe tanggal (ubah format tanggal menjadi string)
+                                path = df.format(cell.getDateCellValue());          // inisialisasi path apabila cell bertipe tanggal (ubah format tanggal menjadi string)
                             } else {
                                 path = Double.toString(cell.getNumericCellValue());         // inisialisasi path apabila cell bertipe double
                             }
